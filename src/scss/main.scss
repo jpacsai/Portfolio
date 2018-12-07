@@ -1,0 +1,26 @@
+@import "normalize";
+
+html {
+  background-color: lightcyan;
+  padding-top: 20px;
+}
+
+#app {
+  width: 90vw;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .router-link {
+      color: green;
+      text-decoration: inherit;
+      margin: auto 15px;
+    }
+  }
+}
