@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>Home</p>
+    <p>Work</p>  
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 // import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 
 export default {
-  name: 'home',
+  name: 'work',
   components: {},
 };
 </script>
