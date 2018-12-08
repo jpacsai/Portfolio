@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p>Work</p>  
+  <div class="view">
+    <p>Work</p>
   </div>
 </template>
 
