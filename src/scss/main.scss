@@ -1,61 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Special+Elite');
 @import "normalize";
 @import "media-queries";
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Special+Elite');
-
-html {
-  background-color: lightcyan;
-  padding-top: 20px;
-  width: 100vw;
-}
-
-#app {
-  margin: 0 auto;
-  width: 90vw;
-  max-width: 1000px;
-  background-color: white;
-  font-family: 'Roboto Slab', serif;
-
-  #nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    flex-wrap: wrap;
-    padding: 15px;
-
-    h1 {
-      margin: 0;
-      font-family: 'Special Elite', cursive;
-      line-height: 80%;
-      margin-top: 10px;
-
-      @include small-screen {
-        margin: 15px auto 30px;
-      }
-    }
-
-    @include small-screen {
-      flex-direction: column;
-      align-items: center;
-    }
-
-    #nav-links {
-      display: flex;
-      width: 45%;
-
-      @include small-screen {
-        width: 100%;
-      }
-    }
-
-    .router-link {
-      color: green;
-      text-decoration: inherit;
-      width: 25%;
-      text-align: center;
-    }
-  }
-
-  .view {
-    background-color: lightgreen;
-  }
-}
+@import "base";
+@import "nav";
+@import "home";

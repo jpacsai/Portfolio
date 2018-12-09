@@ -1,0 +1,17 @@
+html {
+  background-color: lightcyan;
+  padding-top: 20px;
+  width: 100vw;
+
+  #app {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 1000px;
+    background-color: white;
+    font-family: 'Roboto Slab', serif;
+
+    .view {
+      background-color: lightgreen;
+    }
+  }
+}

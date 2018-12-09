@@ -1,6 +1,6 @@
 <template>
-  <div class="view">
-    <p>Home</p>
+  <div class="home">
+    <img class="placeholder" :src="placeholder" alt="temporary placeholder" />
   </div>
 </template>
 
@@ -9,6 +9,11 @@
 
 export default {
   name: 'home',
+  data () {
+    return {
+      placeholder: require('../assets/temporaryplaceholder.jpg'),
+    }
+  },
   components: {},
 };
 </script>
