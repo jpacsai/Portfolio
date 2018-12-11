@@ -1,42 +1,35 @@
-@import "variables";
-
 #nav {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   flex-wrap: wrap;
   padding: 15px;
-  height: $nav_height_large;
+  height: $nav_height_small;
 
-  @include small-screen {
-    flex-direction: column;
-    align-items: center;
-    height: $nav_height_small;
+  @include medium-screen {
+    flex-direction: row;
+    align-items: flex-end;
+    height: $nav_height_large;
   }
 
   h1 {
-    margin: 0;
-    font-family: 'Special Elite', cursive;
+    margin: 15px auto 30px;
+    font-family: $font_name;
+    font-size: 180%;
     line-height: 80%;
-    margin-top: 10px;
 
-    @include small-screen {
-      margin: 15px auto 30px;
-      font-size: 180%;
+    @include medium-screen {
+      margin: 10px 0 0 0;
     }
-  }
-
-  @include small-screen {
-    flex-direction: column;
-    align-items: center;
   }
 
   #nav-links {
     display: flex;
-    width: 45%;
+    width: 100%;
 
-    @include small-screen {
-      width: 100%;
+    @include medium-screen {
+      width: 45%;
     }
   }
 
