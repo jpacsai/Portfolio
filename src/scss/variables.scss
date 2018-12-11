@@ -11,6 +11,8 @@ $nav_height_large: 5vh;
 $home_height_small: calc(100% - #{$nav_height_small} - #{$app_margin} * 2);
 $home_height_large: calc(100% - #{$nav_height_large} - #{$app_margin} * 2);
 
+$home_img_maxHeight: calc(100% - #{$nav_height_large});
+
 // font-families
 
 $font_general: 'Roboto Slab', serif;
