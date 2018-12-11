@@ -3,12 +3,11 @@ $mq-medium:     900px   !default;
 $mq-large:      1200px  !default;
 $mq-extraLarge: 1800px  !default;
 
-/* DEFAULT STYLE
 @mixin small-screen {  // @include small-screen {
   @media only screen and (max-width : $mq-small) {
     @content;
   }
-} */
+}
 
 @mixin medium-screen {  // @include medium-screen {
   @media only screen and (min-width : $mq-small) {
