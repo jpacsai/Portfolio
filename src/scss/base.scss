@@ -1,13 +1,17 @@
+@import "variables";
+
 html {
   background-color: lightcyan;
+  display: flex;
+  justify-content: center;
 
   #app {
-    width: 90vw;
-    height: calc(100vh - 30px);
-    margin: 15px auto;
-    max-width: 1000px;
+    width: $app_width;
+    height: $app_height;
+    margin: $app_margin;
+    max-width: $app_maxWidth;
     background-color: white;
-    font-family: 'Roboto Slab', serif;
+    font-family: $font_general;
 
     .view {
       background-color: lightgreen;

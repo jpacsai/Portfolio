@@ -1,0 +1,16 @@
+// element sizes
+
+$app_margin: 15px;
+$app_height: calc(100vh - #{$app_margin} * 2);
+$app_width: calc(100vw - #{$app_margin} * 2);
+$app_maxWidth: 1000px;
+
+$nav_height_small: 90px;
+$nav_height_large: 5vh;
+
+$home_height_small: calc(100% - #{$nav_height_small} - #{$app_margin} * 2);
+$home_height_large: calc(100% - #{$nav_height_large} - #{$app_margin} * 2);
+
+// font-families
+
+$font_general: 'Roboto Slab', serif;

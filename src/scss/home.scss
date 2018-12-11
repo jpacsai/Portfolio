@@ -1,13 +1,20 @@
+@import "variables";
+
 .home {
   width: 100%;
   background-color: #9ACCCD;
   display: flex;
   justify-content: center;
-  max-height: 80vh;
+  height: $home_height_large;
   
+  @include small-screen {
+    flex-direction: column;
+    align-items: center;
+    height: $home_height_small;
+  }
+
   img {
     width: 100%;
-    max-width: 630px;
     object-fit: contain;
   }
 }
