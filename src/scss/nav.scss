@@ -25,10 +25,9 @@
     }
 
     h1 {
-      font-family: $font_name;
-      font-size: 180%;
-      line-height: 80%;
       margin: 0;
+
+      @include title-font;
   
       @include medium-screen {
         margin: 10px 0 0 0;
@@ -36,11 +35,10 @@
     }
 
     h5 {
-      font-family: $font_general;
       margin: 0;
-      font-weight: 200;
       color: grey;
-      letter-spacing: 3px;
+
+      @include link-font;
     }
   }
 
@@ -61,5 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+
+    @include link-font;
   }
 }

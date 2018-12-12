@@ -6,10 +6,10 @@
         <h5>front-end developer</h5>
       </div>
       <div id="nav-links">
-        <router-link class="router-link" to="/">Home</router-link>
-        <router-link class="router-link" to="/about">About</router-link>
-        <router-link class="router-link" to="/work">Work</router-link>
-        <router-link class="router-link" to="/contact">Contact</router-link>
+        <router-link class="router-link" to="/">home</router-link>
+        <router-link class="router-link" to="/about">about</router-link>
+        <router-link class="router-link" to="/work">work</router-link>
+        <router-link class="router-link" to="/contact">contact</router-link>
       </div>
     </div>
     <router-view/>

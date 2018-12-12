@@ -9,7 +9,8 @@ html {
     margin: $app_margin;
     max-width: $app_maxWidth;
     background-color: white;
-    font-family: $font_general;
+
+    @include general-font;
 
     .view {
       background-color: lightgreen;
