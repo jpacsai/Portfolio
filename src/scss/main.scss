@@ -2,6 +2,7 @@
 @import "variables";
 @import "normalize";
 @import "media-queries";
-@import "base";
-@import "nav";
-@import "home";
+@import "./components/app";
+@import "./components/nav";
+@import "./components/home";
+@import "./components/about";
