@@ -1,6 +1,6 @@
 <template>
-  <div class="view">
-    <p>About</p>
+  <div class="view about">
+    <img :src="selfie" alt="photo of Judit" />
   </div>
 </template>
 
@@ -9,6 +9,11 @@
 
 export default {
   name: 'about',
+  data () {
+    return {
+      selfie: require('../assets/selfie.jpg'),
+    }
+  },
   components: {},
 };
 </script>
