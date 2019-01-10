@@ -1,11 +1,12 @@
 .about {
-  padding: 20px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
   @include medium-screen {
     flex-direction: row;
+    align-items: flex-start;
   }
 
   img {
@@ -19,5 +20,11 @@
 
   p {
     line-height: 1.5;
+    text-align: justify;
+    text-justify: inter-character;
+
+    @include medium-screen {
+      margin-top: 0;
+    }
   }
 }
