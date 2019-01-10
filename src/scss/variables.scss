@@ -28,6 +28,10 @@ $home_img_maxHeight: calc(100% - #{$nav_height_large});
   font-weight: 200;
   text-transform: lowercase;
   @content;
+
+  @include extraSmall-screen {
+    letter-spacing: 1px;
+  }
 }
 
 @mixin  general-font {

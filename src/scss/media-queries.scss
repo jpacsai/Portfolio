@@ -1,7 +1,14 @@
+$mq-extraSmall: 400px   !default;
 $mq-small:      600px   !default;
 $mq-medium:     900px   !default;
 $mq-large:      1200px  !default;
 $mq-extraLarge: 1800px  !default;
+
+@mixin extraSmall-screen {  // @include extraSmall-screen {
+  @media only screen and (max-width : $mq-extraSmall) {
+    @content;
+  }
+}
 
 @mixin small-screen {  // @include small-screen {
   @media only screen and (max-width : $mq-small) {
